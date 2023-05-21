@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol{
+    padding-left: 0;
+}
+
+:focus{
+    outline: none!important;
+}
+
+a{
+    transition: ease 0.4s all;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a:hover{
+    text-decoration: none!important;
+}
+
+
+body {
+    font-family: 'Karla' !important;
+}
+
+
+.birth-list-acordiation div[data-toggle="collapse"]{
+   border-bottom:1px solid #BBDEFB;
+   width:100%;
+   cursor:pointer;
+   padding:1%;
+}
+.birth-list-acordiation .collapse{
+    background:#F5F5F5;
+}
+
+section.birthday-listing {
+    padding: 50px 0;
+}
+
+section.birthday-listing .container-fluid{
+    padding: 0 30px;
+}
